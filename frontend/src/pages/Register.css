@@ -1,0 +1,160 @@
+/* General body styling */
+body {
+  background-color: #f4f4f4; /* Light gray background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form container centering */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main form box */
+.form-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+}
+
+/* Title */
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Google button */
+.google-btn {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.google-btn:hover {
+  background-color: #357ae8;
+}
+
+/* Divider with 'or' */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* Input & Select fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+select {
+  background-color: white;
+}
+
+/* Terms and checkbox inline */
+.terms-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.terms-inline input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+.terms-inline a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.terms-inline a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.create-btn,
+.cancel-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.create-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.cancel-btn:hover {
+  background-color: #e2e6ea;
+}
+
+/* Login link */
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

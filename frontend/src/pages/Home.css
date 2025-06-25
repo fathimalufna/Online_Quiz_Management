@@ -1,0 +1,96 @@
+/* Home.css */
+
+/* Hero Section */
+/* Hero Section Specific Styles */
+.hero-section {
+  background-color: #007bff; /* fallback color */
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dquiz%2Bbackground&psig=AOvVaw1s8HLkjSKF-IR1126mslvP&ust=1750307128245000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDGt-bA-o0DFQAAAAAdAAAAABAE');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+section.py-5.text-center.text-white h1.display-4 {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+section.py-5.text-center.text-white p.lead {
+  font-size: 1.4rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+/* Buttons spacing */
+section.py-5.text-center.text-white .btn {
+  min-width: 140px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+section.py-5.text-center.text-white .btn:hover {
+  filter: brightness(90%);
+}
+
+/* Feature Cards */
+.p-4.border.rounded.shadow-sm {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.p-4.border.rounded.shadow-sm:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.25);
+}
+
+.p-4.border.rounded.shadow-sm i {
+  color: #0d6efd; /* Bootstrap primary */
+}
+
+/* Featured Quizzes cards */
+.card.h-100.shadow-sm {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card.h-100.shadow-sm:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.3);
+}
+
+/* Testimonials blockquote */
+.carousel-item blockquote {
+  font-size: 1.25rem;
+  color: #333;
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-item blockquote footer {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+/* FAQ Accordion */
+.accordion-button {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0d6efd;
+  background-color: #e7f1ff;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-body {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}

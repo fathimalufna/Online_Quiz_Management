@@ -1,0 +1,52 @@
+.content-form {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content-form input,
+.content-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.content-table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.content-table th,
+.content-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.content-table th {
+  background-color: #f0f0f0;
+}
+
+.content-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,36 @@
+.profile-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #f9f9ff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.profile-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.achievements {
+  margin-top: 1rem;
+}
+
+.achievements ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.achievements li {
+  margin: 0.4rem 0;
+  color: #333;
+}

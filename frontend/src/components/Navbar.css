@@ -1,0 +1,47 @@
+/* src/components/Navbar.css */
+
+.custom-navbar {
+  background-color: #283038; /* Light blue background */
+  height: 80px; /* Increased navbar height */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reduced-padding {
+  padding-left: 10px !important; /* Reduce left padding of container */
+  padding-right: 15px !important; /* Optional, keep some right padding */
+}
+
+.brand-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar .nav-link {
+  color: rgb(12, 11, 11) !important;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  padding-bottom: 0.3rem;
+  text-decoration: none; /* No underline */
+}
+
+/* Remove underline and border for Home link */
+.navbar .nav-link.no-underline {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.navbar .nav-link:hover {
+  color: #007bff !important; /* Bootstrap blue on hover */
+  /* No underline */
+}
+
+.navbar .nav-link.active {
+  color: #007bff !important;
+  border-bottom: 2px solid #007bff; /* Bottom border for active link */
+  /* No underline */
+}
+
+

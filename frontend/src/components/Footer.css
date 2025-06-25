@@ -1,0 +1,62 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #131414;
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 1.5rem;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h4,
+.footer-section h5 {
+  margin-bottom: 0.75rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 1rem;
+}
